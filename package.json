@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/manzinello/mailgo-examples/issues"
   },
-  "homepage": "https://github.com/manzinello/mailgo-examples#readme"
+  "homepage": "https://github.com/manzinello/mailgo-examples#readme",
+  "dependencies": {
+    "mailgo": "^0.9.17"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
