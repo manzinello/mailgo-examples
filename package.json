@@ -1,0 +1,22 @@
+{
+  "name": "mailgo-examples",
+  "version": "0.9.17",
+  "description": "Mailgo examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzinello/mailgo-examples.git"
+  },
+  "keywords": [
+    "mailgo"
+  ],
+  "author": "Matteo Manzinello <matteo@manzinello.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manzinello/mailgo-examples/issues"
+  },
+  "homepage": "https://github.com/manzinello/mailgo-examples#readme"
+}
