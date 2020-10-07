@@ -1486,10 +1486,10 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
-mailgo@^0.9.17:
-  version "0.9.17"
-  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.9.17.tgz#cb2d49f6c8b2a04a2b1ec964354fe96c884bbe3a"
-  integrity sha512-zvdT3r4/iGTSRYHCI9PUAY/oL+d4cpMUL8Vc9Ax3ndOSi8H+IBGoL0VVxqdrOtxfVEyJNvooHF/7dpI9UIRE9g==
+mailgo@^0.9.18:
+  version "0.9.18"
+  resolved "https://registry.yarnpkg.com/mailgo/-/mailgo-0.9.18.tgz#6cd201f82208c94aa7054498c62e6bdf1fb08a46"
+  integrity sha512-qw12rh+t+sg5ye5mF1FV2/bza77QjRZ0kOi1ekUlepP3UDMQ2tphDWmZtfgCacCiisp+k1e74VAAS4nzClWS9w==
 
 make-dir@^2.0.0:
   version "2.1.0"
@@ -2558,10 +2558,10 @@ webpack-sources@^1.4.0, webpack-sources@^1.4.1:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@^4.44.1:
-  version "4.44.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.44.1.tgz#17e69fff9f321b8f117d1fda714edfc0b939cc21"
-  integrity sha512-4UOGAohv/VGUNQJstzEywwNxqX417FnjZgZJpJQegddzPmTvph37eBIRbRTfdySXzVtJXLJfbMN3mMYhM6GdmQ==
+webpack@^4.44.2:
+  version "4.44.2"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.44.2.tgz#6bfe2b0af055c8b2d1e90ed2cd9363f841266b72"
+  integrity sha512-6KJVGlCxYdISyurpQ0IPTklv+DULv05rs2hseIXer6D7KrUicRDLFb4IUM1S6LUAKypPM/nSiVSuv8jHu1m3/Q==
   dependencies:
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/helper-module-context" "1.9.0"
