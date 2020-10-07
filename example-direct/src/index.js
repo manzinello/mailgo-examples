@@ -1,3 +1,8 @@
-import mailgo from "mailgo";
+import mailgo, {
+  mailgoDirectRender,
+  isMailgo,
+} from "../../../mailgo/lib/mailgo";
 
-mailgo();
+mailgoDirectRender("mailto:matteo@manzinello.dev");
+
+// console.log(isMailgo);
