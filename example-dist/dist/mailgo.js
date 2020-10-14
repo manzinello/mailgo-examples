@@ -283,9 +283,7 @@ var defaultStrings = translations[defaultLang]; // translation strings
 
 var strings; // global mailgo config object
 
-var config; // global config value
-
-var mailgoEnabled = false; // default config attributes
+var config; // default config attributes
 
 var mailtoEnabled = true;
 var telEnabled = true;
@@ -615,7 +613,7 @@ var mailgoInit = function mailgoInit() {
   } // event listener on body, if the element is mailgo-compatible the mailgo modal will be rendered
 
 
-  document.body.addEventListener("click", mailgoCheckRender);
+  document.addEventListener("click", mailgoCheckRender);
 };
 /**
  * mailgoCheckRender
@@ -1379,14 +1377,9 @@ function mailgo(mailgoConfig) {
   try {
     var _window;
 
-    if (mailgoEnabled) {
-      // mailgo is already enabled here
-      return true;
-    } // polyfill mailgo
+    // polyfill mailgo
     // mailgoPolyfill();
     // set the global config merging window mailgConfig and mailgoConfig passed as a parameter
-
-
     config = _objectSpread(_objectSpread({}, mailgoConfig), ((_window = window) === null || _window === void 0 ? void 0 : _window.mailgoConfig) || null); // if the window is defined...
 
     if (window && typeof window !== "undefined") {
@@ -1433,14 +1426,13 @@ function mailgo(mailgoConfig) {
         mailgoInit();
       }
 
-      mailgoEnabled = true;
+      return true;
     }
   } catch (error) {
-    // console.error(error);
-    mailgoEnabled = false;
+    return false;
   }
 
-  return mailgoEnabled;
+  return false;
 } // define the methods also for window element
 
 
