@@ -1438,11 +1438,13 @@ function mailgo(mailgoConfig) {
 
 
 if (window && typeof window !== "undefined") {
-  window.getMailgoTypeByElement = getMailgoTypeByElement;
-  window.mailgoCheckRender = mailgoCheckRender;
-  window.mailgoPreRender = mailgoPreRender;
-  window.mailgoDirectRender = mailgoDirectRender;
-  window.mailgoRender = mailgoRender;
+  /*
+  (window as any).getMailgoTypeByElement = getMailgoTypeByElement;
+  (window as any).mailgoCheckRender = mailgoCheckRender;
+  (window as any).mailgoPreRender = mailgoPreRender;
+  (window as any).mailgoDirectRender = mailgoDirectRender;
+  (window as any).mailgoRender = mailgoRender;
+  */
 }
 
 
