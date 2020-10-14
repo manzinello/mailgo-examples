@@ -283,7 +283,9 @@ var defaultStrings = translations[defaultLang]; // translation strings
 
 var strings; // global mailgo config object
 
-var config; // default config attributes
+var config; // global config value
+
+var mailgoEnabled = false; // default config attributes
 
 var mailtoEnabled = true;
 var telEnabled = true;
@@ -727,7 +729,7 @@ function mailgoPreRender() {
         subject = urlParams.get("subject");
         bodyMail = urlParams.get("body");
       } catch (error) {
-        console.log(error);
+        console.error(error);
         return false;
       }
     } else {
@@ -738,7 +740,7 @@ function mailgoPreRender() {
       try {
         url = new URL(MAILTO + encodeURIComponent(mail));
       } catch (error) {
-        console.log(error);
+        console.error(error);
         return false;
       } // cc = data-cc-address + @ + data-cc-domain
 
@@ -784,7 +786,7 @@ function mailgoPreRender() {
 
           msg = _urlParams.get("body");
         } catch (error) {
-          console.log(error);
+          console.error(error);
           return false;
         }
       } else if (mailgoElement.hasAttribute("data-tel")) {
@@ -1362,12 +1364,14 @@ var mailgoSetLanguage = function mailgoSetLanguage() {
 };
 
 var mailgoStyle = function mailgoStyle() {
-  // mailgo style
-  var mailgoCSSElement = createElement("style");
-  mailgoCSSElement.id = "mailgo-style";
-  mailgoCSSElement.type = "text/css";
-  mailgoCSSElement.appendChild(createTextNode(mailgoCSS));
-  document.head.appendChild(mailgoCSSElement);
+  if (!document.getElementById("mailgo-style")) {
+    // mailgo style
+    var mailgoCSSElement = createElement("style");
+    mailgoCSSElement.id = "mailgo-style";
+    mailgoCSSElement.type = "text/css";
+    mailgoCSSElement.appendChild(createTextNode(mailgoCSS));
+    document.head.appendChild(mailgoCSSElement);
+  }
 }; // mailgo
 
 
@@ -1375,9 +1379,14 @@ function mailgo(mailgoConfig) {
   try {
     var _window;
 
-    // polyfill mailgo
+    if (mailgoEnabled) {
+      // mailgo is already enabled here
+      return true;
+    } // polyfill mailgo
     // mailgoPolyfill();
     // set the global config merging window mailgConfig and mailgoConfig passed as a parameter
+
+
     config = _objectSpread(_objectSpread({}, mailgoConfig), ((_window = window) === null || _window === void 0 ? void 0 : _window.mailgoConfig) || null); // if the window is defined...
 
     if (window && typeof window !== "undefined") {
@@ -1424,14 +1433,24 @@ function mailgo(mailgoConfig) {
         mailgoInit();
       }
 
-      return true;
+      mailgoEnabled = true;
     }
   } catch (error) {
-    console.log(error);
-    return false;
+    console.error(error);
+    mailgoEnabled = false;
   }
 
-  return false;
+  return mailgoEnabled;
+} // define the methods also for window element
+
+
+if (window && typeof window !== "undefined") {
+  window.getMailgoTypeByElement = getMailgoTypeByElement;
+  window.mailgoCheckRender = mailgoCheckRender;
+  window.mailgoPreRender = mailgoPreRender;
+  window.mailgoDirectRender = mailgoDirectRender;
+  window.mailgoRender = mailgoRender;
+  window.mailgo = mailgo;
 }
 
 
