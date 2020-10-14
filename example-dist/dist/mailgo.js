@@ -57,47 +57,6 @@ var mailgoRenderTag = "mailgo-render";
 
 /***/ }),
 
-/***/ 352:
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "mailgoPolyfill": function() { return /* binding */ mailgoPolyfill; }
-/* harmony export */ });
-var mailgoPolyfill = function mailgoPolyfill() {
-  // Polyfill of find from MDN
-  if (!Array.prototype.find) {
-    Object.defineProperty(Array.prototype, "find", {
-      value: function value(predicate) {
-        "use strict";
-
-        if (this == null) {
-          throw new TypeError("Array.prototype.find called on null or undefined");
-        }
-
-        if (typeof predicate !== "function") {
-          throw new TypeError("predicate must be a function");
-        }
-
-        var list = Object(this);
-        var length = list.length >>> 0;
-        var thisArg = arguments[1];
-
-        for (var i = 0; i !== length; i++) {
-          if (predicate.call(thisArg, this[i], i, list)) {
-            return this[i];
-          }
-        }
-
-        return undefined;
-      }
-    });
-  }
-};
-
-/***/ }),
-
 /***/ 12:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -173,7 +132,7 @@ var leaveFirstLink = function leaveFirstLink(e) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(476);
-var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, ".m-modal{position:fixed;top:0;right:0;bottom:0;left:0;justify-content:center;align-items:center;flex-direction:column;overflow:hidden;font-size:16.5px;z-index:10000}.m-modal p,.m-modal span,.m-modal strong,.m-modal a{margin:0;padding:0;font-size:100%;line-height:1;font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";text-rendering:optimizeLegibility}.m-modal strong{font-weight:700}.m-modal .m-modal-back{position:absolute;z-index:10001;top:0;right:0;bottom:0;left:0;background-color:#20232a;opacity:0.8}.m-modal .m-modal-content{position:relative;z-index:10002;box-sizing:content-box;text-align:center;min-width:200px;max-width:240px;background-color:#fff;opacity:0.95;border-radius:20px;box-shadow:0 3px 20px rgba(32,35,42,0.5);color:#4a4a4a;display:flex;flex-direction:column;overflow:auto;padding:24px;transition:0.5s box-shadow}.m-modal .m-modal-content:hover,.m-modal .m-modal-content:focus,.m-modal .m-modal-content:active{opacity:1}.m-modal .m-modal-content .m-title{margin-bottom:8px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:1.2em}.m-modal .m-modal-content .m-details{margin-bottom:10px}.m-modal .m-modal-content .m-details p{font-size:12px;margin-top:3px;margin-bottom:3px}.m-modal .m-modal-content a{cursor:pointer;padding:10px;color:#4a4a4a;border-radius:20px;text-decoration:none}.m-modal .m-modal-content a.m-gmail{color:#c0372a}.m-modal .m-modal-content a.m-gmail:hover,.m-modal .m-modal-content a.m-gmail:focus,.m-modal .m-modal-content a.m-gmail:active{background-color:rgba(192,55,42,0.08);color:#c0372a}.m-modal .m-modal-content a.m-outlook{color:#0967aa}.m-modal .m-modal-content a.m-outlook:hover,.m-modal .m-modal-content a.m-outlook:focus,.m-modal .m-modal-content a.m-outlook:active{background-color:rgba(9,103,170,0.08);color:#0967aa}.m-modal .m-modal-content a.m-yahoo{color:#4a00a0}.m-modal .m-modal-content a.m-yahoo:hover,.m-modal .m-modal-content a.m-yahoo:focus,.m-modal .m-modal-content a.m-yahoo:active{background-color:rgba(74,0,160,0.08);color:#4a00a0}.m-modal .m-modal-content a.m-tg{color:#086da0}.m-modal .m-modal-content a.m-tg:hover,.m-modal .m-modal-content a.m-tg:focus,.m-modal .m-modal-content a.m-tg:active{background-color:rgba(8,109,160,0.08);color:#086da0}.m-modal .m-modal-content a.m-wa{color:#067466}.m-modal .m-modal-content a.m-wa:hover,.m-modal .m-modal-content a.m-wa:focus,.m-modal .m-modal-content a.m-wa:active{background-color:rgba(6,116,102,0.08);color:#067466}.m-modal .m-modal-content a.m-skype{color:#076d92}.m-modal .m-modal-content a.m-skype:hover,.m-modal .m-modal-content a.m-skype:focus,.m-modal .m-modal-content a.m-skype:active{background-color:rgba(7,109,146,0.08);color:#076d92}.m-modal .m-modal-content a.m-copy{padding:16px 10px;font-size:16px}.m-modal .m-modal-content a.m-default:hover,.m-modal .m-modal-content a.m-default:focus,.m-modal .m-modal-content a.m-default:active,.m-modal .m-modal-content a.m-copy:hover,.m-modal .m-modal-content a.m-copy:focus,.m-modal .m-modal-content a.m-copy:active{background-color:rgba(0,0,0,0.08);color:#4a4a4a}.m-modal .m-modal-content a.m-by{font-size:12px;margin-top:0.8rem;padding:5px;color:#4a4a4a}.m-modal .m-modal-content a.m-by:hover,.m-modal .m-modal-content a.m-by:focus,.m-modal .m-modal-content a.m-by:active{color:#3d3d3d}.m-modal .m-modal-content .w-500{font-weight:500}.m-modal.m-dark .m-modal-content{background-color:#20232a}.m-modal.m-dark .m-modal-content,.m-modal.m-dark .m-modal-content p,.m-modal.m-dark .m-modal-content p span,.m-modal.m-dark .m-modal-content strong{color:#fff}.m-modal.m-dark .m-modal-content a{color:#eaeaea}.m-modal.m-dark .m-modal-content a:not(.m-by):hover,.m-modal.m-dark .m-modal-content a:not(.m-by):focus,.m-modal.m-dark .m-modal-content a:not(.m-by):active{background-color:rgba(134,134,134,0.08);color:#eaeaea}.m-modal.m-dark .m-modal-content a.m-gmail{color:#e07d73}.m-modal.m-dark .m-modal-content a.m-gmail:hover,.m-modal.m-dark .m-modal-content a.m-gmail:focus,.m-modal.m-dark .m-modal-content a.m-gmail:active{background-color:rgba(224,125,115,0.08);color:#e07d73}.m-modal.m-dark .m-modal-content a.m-outlook{color:#4c9cd7}.m-modal.m-dark .m-modal-content a.m-outlook:hover,.m-modal.m-dark .m-modal-content a.m-outlook:focus,.m-modal.m-dark .m-modal-content a.m-outlook:active{background-color:rgba(76,156,215,0.08);color:#4c9cd7}.m-modal.m-dark .m-modal-content a.m-yahoo{color:#ac88d3}.m-modal.m-dark .m-modal-content a.m-yahoo:hover,.m-modal.m-dark .m-modal-content a.m-yahoo:focus,.m-modal.m-dark .m-modal-content a.m-yahoo:active{background-color:rgba(172,136,211,0.08);color:#ac88d3}.m-modal.m-dark .m-modal-content a.m-tg{color:#4cabdb}.m-modal.m-dark .m-modal-content a.m-tg:hover,.m-modal.m-dark .m-modal-content a.m-tg:focus,.m-modal.m-dark .m-modal-content a.m-tg:active{background-color:rgba(76,171,219,0.08);color:#4cabdb}.m-modal.m-dark .m-modal-content a.m-wa{color:#4cd2c0}.m-modal.m-dark .m-modal-content a.m-wa:hover,.m-modal.m-dark .m-modal-content a.m-wa:focus,.m-modal.m-dark .m-modal-content a.m-wa:active{background-color:rgba(76,210,192,0.08);color:#4cd2c0}.m-modal.m-dark .m-modal-content a.m-skype{color:#4cc7f4}.m-modal.m-dark .m-modal-content a.m-skype:hover,.m-modal.m-dark .m-modal-content a.m-skype:focus,.m-modal.m-dark .m-modal-content a.m-skype:active{background-color:rgba(76,199,244,0.08);color:#4cc7f4}.m-modal.m-dark .m-modal-content a.m-by:hover,.m-modal.m-dark .m-modal-content a.m-by:focus,.m-modal.m-dark .m-modal-content a.m-by:active{color:#fff}\n", ""]);
 // Exports
@@ -194,12 +153,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 */
 // css base code, injected by the css-loader
 // eslint-disable-next-line func-names
-module.exports = function (useSourceMap) {
+module.exports = function (cssWithMappingToString) {
   var list = []; // return the list of modules as css string
 
   list.toString = function toString() {
     return this.map(function (item) {
-      var content = cssWithMappingToString(item, useSourceMap);
+      var content = cssWithMappingToString(item);
 
       if (item[2]) {
         return "@media ".concat(item[2], " {").concat(content, "}");
@@ -253,34 +212,6 @@ module.exports = function (useSourceMap) {
   return list;
 };
 
-function cssWithMappingToString(item, useSourceMap) {
-  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
-
-  var cssMapping = item[3];
-
-  if (!cssMapping) {
-    return content;
-  }
-
-  if (useSourceMap && typeof btoa === 'function') {
-    var sourceMapping = toComment(cssMapping);
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return "/*# sourceURL=".concat(cssMapping.sourceRoot || '').concat(source, " */");
-    });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-  }
-
-  return [content].join('\n');
-} // Adapted from convert-source-map (MIT)
-
-
-function toComment(sourceMap) {
-  // eslint-disable-next-line no-undef
-  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
-  return "/*# ".concat(data, " */");
-}
-
 /***/ }),
 
 /***/ 801:
@@ -313,30 +244,28 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 // polyfill
-var _require = __webpack_require__(352),
-    mailgoPolyfill = _require.mailgoPolyfill; // constants
+// const { mailgoPolyfill } = require("./polyfill");
+// constants
+var _require = __webpack_require__(249),
+    MAILTO = _require.MAILTO,
+    MAILGO = _require.MAILGO,
+    TEL = _require.TEL,
+    CALLTO = _require.CALLTO,
+    SMS = _require.SMS,
+    MAILGO_MAIL = _require.MAILGO_MAIL,
+    MAILGO_TEL = _require.MAILGO_TEL,
+    NO_MAILGO = _require.NO_MAILGO,
+    spanHTMLTag = _require.spanHTMLTag,
+    aHTMLTag = _require.aHTMLTag,
+    pHTMLTag = _require.pHTMLTag,
+    defaultLang = _require.defaultLang; // utils
 
 
-var _require2 = __webpack_require__(249),
-    MAILTO = _require2.MAILTO,
-    MAILGO = _require2.MAILGO,
-    TEL = _require2.TEL,
-    CALLTO = _require2.CALLTO,
-    SMS = _require2.SMS,
-    MAILGO_MAIL = _require2.MAILGO_MAIL,
-    MAILGO_TEL = _require2.MAILGO_TEL,
-    NO_MAILGO = _require2.NO_MAILGO,
-    spanHTMLTag = _require2.spanHTMLTag,
-    aHTMLTag = _require2.aHTMLTag,
-    pHTMLTag = _require2.pHTMLTag,
-    defaultLang = _require2.defaultLang; // utils
-
-
-var _require3 = __webpack_require__(12),
-    validateEmails = _require3.validateEmails,
-    validateTel = _require3.validateTel,
-    copyToClipboard = _require3.copyToClipboard,
-    setFocusLoop = _require3.setFocusLoop; // i18n for mailgo
+var _require2 = __webpack_require__(12),
+    validateEmails = _require2.validateEmails,
+    validateTel = _require2.validateTel,
+    copyToClipboard = _require2.copyToClipboard,
+    setFocusLoop = _require2.setFocusLoop; // i18n for mailgo
 
 
 var i18n = __webpack_require__(581); // mailgo scss
@@ -1419,14 +1348,12 @@ var mailgoSetLanguage = function mailgoSetLanguage() {
     // keep the lang from html
     var htmlLang = document.documentElement.lang; // find the correct language using the lang attribute, not just a === because there a are cases like fr-FR or fr_FR in html lang attribute
 
-    var langFound = i18n.languages.find(function (language) {
-      return new RegExp("^" + language, "gi").test(htmlLang);
-    }); // if there is a valid language set it
-
-    if (langFound) {
-      lang = langFound;
-      languageType = "html lang";
-    }
+    i18n.languages.forEach(function (language) {
+      if (new RegExp("^" + language, "gi").test(htmlLang)) {
+        lang = htmlLang;
+        languageType = "html lang";
+      }
+    });
   } // strings
 
 
@@ -1449,8 +1376,8 @@ function mailgo(mailgoConfig) {
     var _window;
 
     // polyfill mailgo
-    mailgoPolyfill(); // set the global config merging window mailgConfig and mailgoConfig passed as a parameter
-
+    // mailgoPolyfill();
+    // set the global config merging window mailgConfig and mailgoConfig passed as a parameter
     config = _objectSpread(_objectSpread({}, mailgoConfig), ((_window = window) === null || _window === void 0 ? void 0 : _window.mailgoConfig) || null); // if the window is defined...
 
     if (window && typeof window !== "undefined") {
