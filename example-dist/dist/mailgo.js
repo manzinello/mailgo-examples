@@ -1443,7 +1443,6 @@ if (window && typeof window !== "undefined") {
   window.mailgoPreRender = mailgoPreRender;
   window.mailgoDirectRender = mailgoDirectRender;
   window.mailgoRender = mailgoRender;
-  window.mailgo = mailgo;
 }
 
 
