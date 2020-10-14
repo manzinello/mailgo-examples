@@ -10,7 +10,7 @@ module.exports = JSON.parse("{\"languages\":[\"en\",\"it\",\"es\",\"de\",\"fr\",
 
 /***/ }),
 
-/***/ 249:
+/***/ 495:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -57,7 +57,7 @@ var mailgoRenderTag = "mailgo-render";
 
 /***/ }),
 
-/***/ 12:
+/***/ 434:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -229,7 +229,7 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
-/***/ 358:
+/***/ 12:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -246,7 +246,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 // polyfill
 // const { mailgoPolyfill } = require("./polyfill");
 // constants
-var _require = __webpack_require__(249),
+var _require = __webpack_require__(495),
     MAILTO = _require.MAILTO,
     MAILGO = _require.MAILGO,
     TEL = _require.TEL,
@@ -261,7 +261,7 @@ var _require = __webpack_require__(249),
     defaultLang = _require.defaultLang; // utils
 
 
-var _require2 = __webpack_require__(12),
+var _require2 = __webpack_require__(434),
     validateEmails = _require2.validateEmails,
     validateTel = _require2.validateTel,
     copyToClipboard = _require2.copyToClipboard,
@@ -1520,7 +1520,7 @@ src_mailgo(mailgoConfig);
 /******/ 	// module exports must be returned from runtime so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(358);
+/******/ 	return __webpack_require__(12);
 /******/ })()
 ;
 //# sourceMappingURL=mailgo.js.map
