@@ -5,6 +5,8 @@ import mailgo, {
 
 // mailgoDirectRender("mailto:matteo@manzinello.dev");
 
+mailgo();
+
 document.getElementById("direct-button").addEventListener("click", () => {
   mailgoDirectRender("mailto:matteo@manzinello.dev");
 });
