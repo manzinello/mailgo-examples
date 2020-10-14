@@ -1,3 +1,5 @@
 import mailgo from "mailgo";
 
-mailgo();
+mailgo({
+  dark: true,
+});
