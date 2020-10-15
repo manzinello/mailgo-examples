@@ -727,7 +727,7 @@ function mailgoPreRender() {
         subject = urlParams.get("subject");
         bodyMail = urlParams.get("body");
       } catch (error) {
-        console.error(error);
+        console.error("step2" + error);
         return false;
       }
     } else {
@@ -738,7 +738,7 @@ function mailgoPreRender() {
       try {
         url = new URL(MAILTO + encodeURIComponent(mail));
       } catch (error) {
-        console.error(error);
+        console.error("step3" + error);
         return false;
       } // cc = data-cc-address + @ + data-cc-domain
 
@@ -784,7 +784,7 @@ function mailgoPreRender() {
 
           msg = _urlParams.get("body");
         } catch (error) {
-          console.error(error);
+          console.error("step4" + error);
           return false;
         }
       } else if (mailgoElement.hasAttribute("data-tel")) {
@@ -1429,7 +1429,7 @@ function mailgo(mailgoConfig) {
       return true;
     }
   } catch (error) {
-    console.error(error);
+    console.error("step1" + error);
     return false;
   }
 
@@ -1438,13 +1438,12 @@ function mailgo(mailgoConfig) {
 
 
 if (window && typeof window !== "undefined") {
-  /*
-  (window as any).getMailgoTypeByElement = getMailgoTypeByElement;
-  (window as any).mailgoCheckRender = mailgoCheckRender;
-  (window as any).mailgoPreRender = mailgoPreRender;
-  (window as any).mailgoDirectRender = mailgoDirectRender;
-  (window as any).mailgoRender = mailgoRender;
-  */
+  window.getMailgoTypeByElement = getMailgoTypeByElement;
+  window.mailgoCheckRender = mailgoCheckRender;
+  window.mailgoPreRender = mailgoPreRender;
+  window.mailgoDirectRender = mailgoDirectRender;
+  window.mailgoRender = mailgoRender;
+  window.mailgo = mailgo;
 }
 
 
