@@ -7,12 +7,14 @@ import mailgo, {
 
 mailgo();
 
-document.getElementById("direct-button").addEventListener("click", () => {
+document.getElementById("direct-button").addEventListener("click", function () {
   mailgoDirectRender("mailto:matteo@manzinello.dev");
 });
 
-document.getElementById("direct-button-tel").addEventListener("click", () => {
-  mailgoDirectRender("tel:123456789");
-});
+document
+  .getElementById("direct-button-tel")
+  .addEventListener("click", function () {
+    mailgoDirectRender("tel:123456789");
+  });
 
 // console.log(isMailgo);
