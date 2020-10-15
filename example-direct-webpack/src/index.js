@@ -1,9 +1,4 @@
-import mailgo, {
-  mailgoDirectRender,
-  isMailgo,
-} from "../../../mailgo/lib/mailgo";
-
-// mailgoDirectRender("mailto:matteo@manzinello.dev");
+import mailgo, { mailgoDirectRender } from "mailgo";
 
 mailgo({
   dark: true,
@@ -18,5 +13,3 @@ document
   .addEventListener("click", function () {
     mailgoDirectRender("tel:123456789");
   });
-
-// console.log(isMailgo);
