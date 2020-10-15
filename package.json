@@ -1,6 +1,6 @@
 {
   "name": "mailgo-examples",
-  "version": "0.9.17",
+  "version": "0.10.0",
   "description": "Mailgo examples",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/manzinello/mailgo-examples#readme",
   "dependencies": {
-    "mailgo": "^0.9.18"
+    "mailgo": "^0.10.0"
   },
   "devDependencies": {
     "webpack": "^4.44.2",
