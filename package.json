@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/manzinello/mailgo-examples#readme",
   "dependencies": {
-    "mailgo": "^0.10.3"
+    "mailgo": "^0.10.4",
+    "mailgo-wip": "../mailgo"
   },
   "devDependencies": {
     "webpack": "^5.1.2",

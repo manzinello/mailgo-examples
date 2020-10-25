@@ -2,11 +2,19 @@ window.mailgo =
 /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 581:
+/***/ 168:
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse("{\"languages\":[\"en\",\"it\",\"es\",\"de\",\"fr\",\"pt\",\"nl\",\"ru\",\"sv\",\"no\",\"dk\",\"is\",\"zh\"],\"translations\":{\"en\":{\"open_in_\":\"open in \",\"cc_\":\"cc \",\"bcc_\":\"bcc \",\"subject_\":\"subject \",\"body_\":\"body \",\"gmail\":\"Gmail\",\"outlook\":\"Outlook\",\"yahoo\":\"Yahoo Mail\",\"telegram\":\"Telegram\",\"whatsapp\":\"WhatsApp\",\"skype\":\"Skype\",\"call\":\"call\",\"open\":\"open\",\"_default\":\" default\",\"_as_default\":\" as default\",\"copy\":\"copy\",\"copied\":\"copied\"},\"it\":{\"open_in_\":\"apri con \",\"bcc_\":\"ccn \",\"subject_\":\"oggetto \",\"body_\":\"testo \",\"call\":\"chiama\",\"open\":\"apri\",\"_default\":\" \",\"_as_default\":\" \",\"copy\":\"copia\",\"copied\":\"copiato\"},\"es\":{\"open_in_\":\"abrir con \",\"bcc_\":\"cco \",\"subject_\":\"asunto \",\"body_\":\"cuerpo \",\"call\":\"llamar\",\"open\":\"abrir\",\"_default\":\" predefinido\",\"_as_default\":\" por defecto\",\"copy\":\"copiar\",\"copied\":\"copiado\"},\"de\":{\"open_in_\":\"Öffnen in \",\"subject_\":\"Betreff \",\"body_\":\"Nachricht \",\"call\":\"Anrufen\",\"open\":\"Öffnen\",\"_default\":\" mit Standard\",\"_as_default\":\" mit Standard\",\"copy\":\"kopieren\",\"copied\":\"kopiert\"},\"pt\":{\"open_in_\":\"abrir com \",\"bcc_\":\"cco \",\"subject_\":\"assunto \",\"body_\":\"corpo \",\"call\":\"ligar\",\"open\":\"abrir\",\"_default\":\" padrão\",\"_as_default\":\" por padrão\",\"copy\":\"copiar\",\"copied\":\"copiado\"},\"fr\":{\"open_in_\":\"Ouvrir dans \",\"bcc_\":\"cci \",\"subject_\":\"sujet \",\"body_\":\"contenu \",\"call\":\"Appeler\",\"open\":\"Ouvrir\",\"_default\":\" par défaut\",\"_as_default\":\" par défaut\",\"copy\":\"Copier\",\"copied\":\"copié\"},\"nl\":{\"subject_\":\"onderwerp \",\"body_\":\"bericht \",\"call\":\"bellen\",\"open\":\"openen\",\"_default\":\" standaard\",\"_as_default\":\" als standaard\",\"copy\":\"kopiëren\"},\"ru\":{\"open_in_\":\"открыть в \",\"subject_\":\"тема \",\"body_\":\"тело \",\"call\":\"позвонить\",\"open\":\"открыть\",\"_default\":\" по умолчанию\",\"_as_default\":\" по умолчанию\",\"copy\":\"скопировать\"},\"sv\":{\"open_in_\":\"öppna i \",\"subject_\":\"ämne \",\"body_\":\"meddelandetext \",\"call\":\"ring\",\"open\":\"öppna\",\"_default\":\" förval\",\"_as_default\":\" som förval\",\"copy\":\"kopiera\",\"copied\":\"kopierad\"},\"no\":{\"open_in_\":\"åpne i \",\"subject_\":\"emne \",\"call\":\"ringe\",\"open\":\"åpne\",\"_as_default\":\" som standard\",\"copy\":\"kopiere\",\"copied\":\"kopiert\"},\"dk\":{\"open_in_\":\"åpne i \",\"subject_\":\"emne \",\"call\":\"ringe op\",\"open\":\"åben\",\"_as_default\":\" som standard\",\"copy\":\"kopi\",\"copied\":\"kopieret\"},\"is\":{\"open_in_\":\"opið inn \",\"subject_\":\"viðfangsefni \",\"body_\":\"líkami \",\"call\":\"hringja\",\"open\":\"opið\",\"_default\":\" sjálfgefið\",\"_as_default\":\" sem sjálfgefið\",\"copy\":\"afrita\",\"copied\":\"afritað\"},\"zh\":{\"open_in_\":\"開啟 \",\"cc_\":\"副本 \",\"bcc_\":\"密件副本 \",\"subject_\":\"主旨 \",\"body_\":\"內文 \",\"call\":\"通話\",\"open\":\"開啟\",\"_default\":\" 預設\",\"_as_default\":\" 預設\",\"copy\":\"複製\",\"copied\":\"已複製\"}}}");
+module.exports = JSON.parse("[\"en\",\"it\",\"es\",\"de\",\"fr\",\"pt\",\"nl\",\"ru\",\"sv\",\"no\",\"dk\",\"is\",\"zh\"]");
+
+/***/ }),
+
+/***/ 340:
+/***/ (function(module) {
+
+"use strict";
+module.exports = JSON.parse("{\"en\":{\"open_in_\":\"open in \",\"cc_\":\"cc \",\"bcc_\":\"bcc \",\"subject_\":\"subject \",\"body_\":\"body \",\"gmail\":\"Gmail\",\"outlook\":\"Outlook\",\"yahoo\":\"Yahoo Mail\",\"telegram\":\"Telegram\",\"whatsapp\":\"WhatsApp\",\"skype\":\"Skype\",\"call\":\"call\",\"open\":\"open\",\"_default\":\" default\",\"_as_default\":\" as default\",\"copy\":\"copy\",\"copied\":\"copied\"},\"it\":{\"open_in_\":\"apri con \",\"bcc_\":\"ccn \",\"subject_\":\"oggetto \",\"body_\":\"testo \",\"call\":\"chiama\",\"open\":\"apri\",\"_default\":\" \",\"_as_default\":\" \",\"copy\":\"copia\",\"copied\":\"copiato\"},\"es\":{\"open_in_\":\"abrir con \",\"bcc_\":\"cco \",\"subject_\":\"asunto \",\"body_\":\"cuerpo \",\"call\":\"llamar\",\"open\":\"abrir\",\"_default\":\" predefinido\",\"_as_default\":\" por defecto\",\"copy\":\"copiar\",\"copied\":\"copiado\"},\"de\":{\"open_in_\":\"Öffnen in \",\"subject_\":\"Betreff \",\"body_\":\"Nachricht \",\"call\":\"Anrufen\",\"open\":\"Öffnen\",\"_default\":\" mit Standard\",\"_as_default\":\" mit Standard\",\"copy\":\"kopieren\",\"copied\":\"kopiert\"},\"pt\":{\"open_in_\":\"abrir com \",\"bcc_\":\"cco \",\"subject_\":\"assunto \",\"body_\":\"corpo \",\"call\":\"ligar\",\"open\":\"abrir\",\"_default\":\" padrão\",\"_as_default\":\" por padrão\",\"copy\":\"copiar\",\"copied\":\"copiado\"},\"fr\":{\"open_in_\":\"Ouvrir dans \",\"bcc_\":\"cci \",\"subject_\":\"sujet \",\"body_\":\"contenu \",\"call\":\"Appeler\",\"open\":\"Ouvrir\",\"_default\":\" par défaut\",\"_as_default\":\" par défaut\",\"copy\":\"Copier\",\"copied\":\"copié\"},\"nl\":{\"subject_\":\"onderwerp \",\"body_\":\"bericht \",\"call\":\"bellen\",\"open\":\"openen\",\"_default\":\" standaard\",\"_as_default\":\" als standaard\",\"copy\":\"kopiëren\"},\"ru\":{\"open_in_\":\"открыть в \",\"subject_\":\"тема \",\"body_\":\"тело \",\"call\":\"позвонить\",\"open\":\"открыть\",\"_default\":\" по умолчанию\",\"_as_default\":\" по умолчанию\",\"copy\":\"скопировать\"},\"sv\":{\"open_in_\":\"öppna i \",\"subject_\":\"ämne \",\"body_\":\"meddelandetext \",\"call\":\"ring\",\"open\":\"öppna\",\"_default\":\" förval\",\"_as_default\":\" som förval\",\"copy\":\"kopiera\",\"copied\":\"kopierad\"},\"no\":{\"open_in_\":\"åpne i \",\"subject_\":\"emne \",\"call\":\"ringe\",\"open\":\"åpne\",\"_as_default\":\" som standard\",\"copy\":\"kopiere\",\"copied\":\"kopiert\"},\"dk\":{\"open_in_\":\"åpne i \",\"subject_\":\"emne \",\"call\":\"ringe op\",\"open\":\"åben\",\"_as_default\":\" som standard\",\"copy\":\"kopi\",\"copied\":\"kopieret\"},\"is\":{\"open_in_\":\"opið inn \",\"subject_\":\"viðfangsefni \",\"body_\":\"líkami \",\"call\":\"hringja\",\"open\":\"opið\",\"_default\":\" sjálfgefið\",\"_as_default\":\" sem sjálfgefið\",\"copy\":\"afrita\",\"copied\":\"afritað\"},\"zh\":{\"open_in_\":\"開啟 \",\"cc_\":\"副本 \",\"bcc_\":\"密件副本 \",\"subject_\":\"主旨 \",\"body_\":\"內文 \",\"call\":\"通話\",\"open\":\"開啟\",\"_default\":\" 預設\",\"_as_default\":\" 預設\",\"copy\":\"複製\",\"copied\":\"已複製\"}}");
 
 /***/ }),
 
@@ -23,15 +31,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "SMS": function() { return /* binding */ SMS; },
 /* harmony export */   "outlookDeepLink": function() { return /* binding */ outlookDeepLink; },
 /* harmony export */   "NO_MAILGO": function() { return /* binding */ NO_MAILGO; },
+/* harmony export */   "DESKTOP": function() { return /* binding */ DESKTOP; },
+/* harmony export */   "MOBILE": function() { return /* binding */ MOBILE; },
 /* harmony export */   "MAILGO_MAIL": function() { return /* binding */ MAILGO_MAIL; },
 /* harmony export */   "MAILGO_TEL": function() { return /* binding */ MAILGO_TEL; },
 /* harmony export */   "MAILGO_SMS": function() { return /* binding */ MAILGO_SMS; },
+/* harmony export */   "CLASSIC": function() { return /* binding */ CLASSIC; },
+/* harmony export */   "LESS_SPAM": function() { return /* binding */ LESS_SPAM; },
 /* harmony export */   "spanHTMLTag": function() { return /* binding */ spanHTMLTag; },
 /* harmony export */   "aHTMLTag": function() { return /* binding */ aHTMLTag; },
 /* harmony export */   "pHTMLTag": function() { return /* binding */ pHTMLTag; },
-/* harmony export */   "defaultLang": function() { return /* binding */ defaultLang; },
-/* harmony export */   "mailgoReadyTag": function() { return /* binding */ mailgoReadyTag; },
-/* harmony export */   "mailgoRenderTag": function() { return /* binding */ mailgoRenderTag; }
+/* harmony export */   "defaultLang": function() { return /* binding */ defaultLang; }
 /* harmony export */ });
 // links
 var MAILTO = "mailto:";
@@ -42,20 +52,41 @@ var SMS = "sms:"; // deep linking
 
 var outlookDeepLink = "ms-outlook://"; // no mailgo class
 
-var NO_MAILGO = "no-mailgo"; // mailgo types
+var NO_MAILGO = "no-mailgo"; // responsive settings
+
+var DESKTOP = "desktop";
+var MOBILE = "mobile"; // mailgo modal types
 
 var MAILGO_MAIL = "mailgo";
 var MAILGO_TEL = "mailgo-tel";
-var MAILGO_SMS = "mailgo-sms"; // useful html tags
+var MAILGO_SMS = "mailgo-sms"; // mailgo installation types
+
+var CLASSIC = "classic";
+var LESS_SPAM = "less-spam"; // useful html tags
 
 var spanHTMLTag = "span";
 var aHTMLTag = "a";
 var pHTMLTag = "p"; // default lang
 
-var defaultLang = "en"; // events tag
+var defaultLang = "en";
 
-var mailgoReadyTag = "mailgo-ready";
-var mailgoRenderTag = "mailgo-render";
+/***/ }),
+
+/***/ 43:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "userAgent": function() { return /* binding */ userAgent; }
+/* harmony export */ });
+var userAgent = function userAgent() {
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    return "mobile";
+  }
+
+  return "desktop";
+};
 
 /***/ }),
 
@@ -257,7 +288,10 @@ var _require = __webpack_require__(249),
     MAILGO_MAIL = _require.MAILGO_MAIL,
     MAILGO_TEL = _require.MAILGO_TEL,
     MAILGO_SMS = _require.MAILGO_SMS,
+    CLASSIC = _require.CLASSIC,
+    LESS_SPAM = _require.LESS_SPAM,
     NO_MAILGO = _require.NO_MAILGO,
+    MOBILE = _require.MOBILE,
     spanHTMLTag = _require.spanHTMLTag,
     aHTMLTag = _require.aHTMLTag,
     pHTMLTag = _require.pHTMLTag,
@@ -271,14 +305,17 @@ var _require2 = __webpack_require__(12),
     setFocusLoop = _require2.setFocusLoop; // i18n for mailgo
 
 
-var i18n = __webpack_require__(581); // mailgo scss
+var languages = __webpack_require__(168);
+
+var translations = __webpack_require__(340); // mobile detect
 
 
-var mailgoCSS = __webpack_require__(801).toString(); // translations
+var _require3 = __webpack_require__(43),
+    userAgent = _require3.userAgent; // mailgo scss
 
 
-var _ref = i18n,
-    translations = _ref.translations; // default language
+var mailgoCSS = __webpack_require__(801).toString(); // default language
+
 
 var lang = defaultLang; // default strings
 
@@ -286,19 +323,27 @@ var defaultStrings = translations[defaultLang]; // translation strings
 
 var strings; // global mailgo config object
 
-var config; // default config attributes
+var config; // config to check if the client is mobile or desktop
+
+var isMobile = false; // default config attributes
 
 var mailtoEnabled = true;
 var telEnabled = true;
 var smsEnabled = false;
+var desktopEnabled = true;
+var mobileEnabled = true;
 var validateEmailConfig = true;
 var validateTelConfig = true;
 var showFooterConfig = true;
-var loadCSSConfig = true; // modals global object
+var loadCSSConfig = true; // activeMailgoType
 
-var modalMailto, modalTel; // mailgo variables
+var activeMailgoType; // modals global object
 
-var url, mail, encEmail, cc, bcc, subject, bodyMail; // mailgo tel variables
+var modalMailto, modalTel; // mailgo general variables
+
+var url, href, lessSpamHref; // mailgo mail variables
+
+var mail, cc, bcc, subject, bodyMail; // mailgo tel variables
 
 var tel, msg, telegramUsername, skypeUsername; // the DOM elements
 
@@ -312,10 +357,32 @@ var gmail, outlook, yahoo, mailgo_open, telegram, wa, skype, call, copyMail, cop
 
 var mailgoInit = function mailgoInit() {
   // mailgo, if mailgo not already exists
-  var mailgoExists = !!document.getElementById(MAILGO_MAIL);
+  var mailgoExists = !!document.getElementById(MAILGO_MAIL); // set the boolean for mobile/desktop
 
-  if (!mailgoExists) {
+  isMobile = userAgent() === MOBILE; // responsive settings
+
+  {
     var _config, _config2;
+
+    if (typeof ((_config = config) === null || _config === void 0 ? void 0 : _config.desktop) !== "undefined") {
+      desktopEnabled = config.desktop; // if it is a desktop and desktop is not enabled no init mailgo
+
+      if (!isMobile && !desktopEnabled) {
+        return;
+      }
+    }
+
+    if (typeof ((_config2 = config) === null || _config2 === void 0 ? void 0 : _config2.mobile) !== "undefined") {
+      mobileEnabled = config.mobile; // if it is a desktop and desktop is not enabled no init mailgo
+
+      if (isMobile && !mobileEnabled) {
+        return;
+      }
+    }
+  } // if mailgo is enabled for mailto and it not exists in DOM
+
+  if (mailtoEnabled && !mailgoExists) {
+    var _config3, _config4;
 
     // modal
     modalMailto = createElement();
@@ -328,10 +395,10 @@ var mailgoInit = function mailgoInit() {
 
     mailgoSetLanguage(); // if dark is in config
 
-    if ((_config = config) === null || _config === void 0 ? void 0 : _config.dark) {
-      enableDarkMode(MAILGO_MAIL);
+    if ((_config3 = config) === null || _config3 === void 0 ? void 0 : _config3.dark) {
+      enableDarkMode();
     } else {
-      disableDarkMode(MAILGO_MAIL);
+      disableDarkMode();
     } // background
 
 
@@ -403,7 +470,11 @@ var mailgoInit = function mailgoInit() {
     gmailSpan.className = "w-500";
     gmailSpan.appendChild(createTextNode(strings.gmail || defaultStrings.gmail));
     gmail.appendChild(gmailSpan);
-    if (mailgoActionEnabled("gmail")) modalContent.appendChild(gmail); // Outlook
+
+    if (mailgoActionEnabled("gmail")) {
+      modalContent.appendChild(gmail);
+    } // Outlook
+
 
     outlook = createElement(aHTMLTag);
     outlook.id = "m-outlook";
@@ -457,7 +528,7 @@ var mailgoInit = function mailgoInit() {
     copyMail.appendChild(createTextNode(strings.copy || defaultStrings.copy));
     modalContent.appendChild(copyMail); // hide mailgo.dev in footer only if showFooter is defined and equal to false
 
-    if (typeof ((_config2 = config) === null || _config2 === void 0 ? void 0 : _config2.showFooter) !== "undefined") {
+    if (typeof ((_config4 = config) === null || _config4 === void 0 ? void 0 : _config4.showFooter) !== "undefined") {
       showFooterConfig = config.showFooter;
     }
 
@@ -472,10 +543,10 @@ var mailgoInit = function mailgoInit() {
   } // mailgo tel, if mailgo-tel not already exists
 
 
-  var mailgoTelExists = !!document.getElementById(MAILGO_TEL);
+  var mailgoTelExists = !!document.getElementById(MAILGO_TEL); // if mailgo is enabled for tel/callto and it not exists in DOM
 
-  if (!mailgoTelExists) {
-    var _config3, _config4;
+  if (telEnabled && !mailgoTelExists) {
+    var _config5, _config6;
 
     // modal
     modalTel = createElement();
@@ -486,10 +557,10 @@ var mailgoInit = function mailgoInit() {
     modalTel.setAttribute("tabindex", "-1");
     modalTel.setAttribute("aria-labelledby", "m-tel-title"); // if dark is in config
 
-    if ((_config3 = config) === null || _config3 === void 0 ? void 0 : _config3.dark) {
-      enableDarkMode(MAILGO_TEL);
+    if ((_config5 = config) === null || _config5 === void 0 ? void 0 : _config5.dark) {
+      enableDarkMode();
     } else {
-      disableDarkMode(MAILGO_TEL);
+      disableDarkMode();
     } // background
 
 
@@ -601,7 +672,7 @@ var mailgoInit = function mailgoInit() {
     _modalContent.appendChild(copyTel); // hide mailgo.dev in footer only if showFooter is defined and equal to false
 
 
-    if (typeof ((_config4 = config) === null || _config4 === void 0 ? void 0 : _config4.showFooter) !== "undefined") {
+    if (typeof ((_config6 = config) === null || _config6 === void 0 ? void 0 : _config6.showFooter) !== "undefined") {
       showFooterConfig = config.showFooter;
     }
 
@@ -616,10 +687,10 @@ var mailgoInit = function mailgoInit() {
   } // event listener on body, if the element is mailgo-compatible the mailgo modal will be rendered
 
 
-  document.addEventListener("click", mailgoCheckRender);
+  document.addEventListener("click", mailgoClickListener);
 };
 /**
- * mailgoCheckRender
+ * mailgoClickListener
  * function to check if an element is mailgo-enabled or not referencing to
  * mail:
  * document.querySelectorAll(
@@ -640,14 +711,14 @@ var mailgoInit = function mailgoInit() {
  */
 
 
-function mailgoCheckRender(event) {
+function mailgoClickListener(event) {
   // check if the mailgo HTML exists in the body
   if (!document.body.contains(modalMailto) || !document.body.contains(modalTel)) {
     return false;
   } // if a mailgo is already showing do nothing
 
 
-  if (mailgoIsShowing(MAILGO_MAIL) || mailgoIsShowing(MAILGO_TEL)) {
+  if (mailgoIsShowing()) {
     return false;
   } // the path of the event
 
@@ -658,31 +729,30 @@ function mailgoCheckRender(event) {
     path.forEach(function (element) {
       if (element instanceof HTMLDocument || element instanceof Window) {
         return false;
-      } // go in the event.path to find if the user has clicked on a mailgo element (if mailto/tel enabled)
+      } // go here only if one of the mailgo modals are enabled
 
 
-      if (mailtoEnabled && getMailgoTypeByElement(element) === MAILGO_MAIL) {
-        // stop the normal execution of the element click
-        event.preventDefault(); // render mailgo
+      if (mailtoEnabled || telEnabled || smsEnabled) {
+        var localMailgoType = getMailgoTypeByElement(element); // go on if the localMailgoType is not null
 
-        mailgoPreRender(MAILGO_MAIL, element);
-        return true;
-      }
+        if (localMailgoType) {
+          var _activeMailgoType;
 
-      if (telEnabled && getMailgoTypeByElement(element) == MAILGO_TEL) {
-        // stop the normal execution of the element click
-        event.preventDefault(); // render mailgo
+          // set the active mailgo type
+          activeMailgoType = localMailgoType;
+          var activeMailgoModalType = (_activeMailgoType = activeMailgoType) === null || _activeMailgoType === void 0 ? void 0 : _activeMailgoType.type;
 
-        mailgoPreRender(MAILGO_TEL, element);
-        return true;
-      }
+          if (activeMailgoModalType) {
+            // check if the setting is enabled and if so go with pre-render
+            if (mailtoEnabled && activeMailgoModalType === MAILGO_MAIL || telEnabled && activeMailgoModalType === MAILGO_TEL || smsEnabled && activeMailgoModalType === MAILGO_SMS) {
+              // stop the normal execution of the element click
+              event.preventDefault(); // render mailgo
 
-      if (smsEnabled && getMailgoTypeByElement(element) == MAILGO_SMS) {
-        // stop the normal execution of the element click
-        event.preventDefault(); // render mailgo, at the moment as tel
-
-        mailgoPreRender(MAILGO_TEL, element);
-        return true;
+              mailgoPreRender(element);
+              return true;
+            }
+          }
+        }
       }
     });
   }
@@ -695,34 +765,31 @@ function mailgoCheckRender(event) {
  */
 
 
-function mailgoPreRender() {
-  var _config7;
+function mailgoPreRender(mailgoElementOrUrl) {
+  var _activeMailgoType2, _activeMailgoType3, _config9;
 
-  var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : MAILGO_MAIL;
-  var mailgoElementOrUrl = arguments.length > 1 ? arguments[1] : undefined;
-  var href;
-  var mailgoElement;
+  var mailgoElement; // get the type and installation from current mailgo type
 
-  if (typeof mailgoElementOrUrl == "string") {
+  var type = (_activeMailgoType2 = activeMailgoType) === null || _activeMailgoType2 === void 0 ? void 0 : _activeMailgoType2.type;
+  var installation = (_activeMailgoType3 = activeMailgoType) === null || _activeMailgoType3 === void 0 ? void 0 : _activeMailgoType3.installation; // if type is not defined return
+
+  if (!type) return false;
+
+  if (typeof mailgoElementOrUrl === "string") {
     // if the parameter is a string it is the url
     href = mailgoElementOrUrl;
   } else {
     // if the paramenter is an HTMLLinkElement get the href attribute and the element
-    href = mailgoElementOrUrl.href;
+    href = mailgoElementOrUrl.getAttribute("href");
     mailgoElement = mailgoElementOrUrl;
-  } // if href is undefined or null return false
-
-
-  if (!href) {
-    return false;
   } // mailgo mail
 
 
   if (type === MAILGO_MAIL) {
-    var _config5;
+    var _config7;
 
-    // if the element href=^"mailto:" or href=^"mailgo:"
-    if (validateUrl(href, MAILTO) || validateUrl(href, MAILGO)) {
+    // if the installation is classic
+    if (installation === CLASSIC) {
       if (validateUrl(href, MAILTO)) {
         mail = decodeURIComponent(href.split("?")[0].split(MAILTO)[1].trim());
       } else if (validateUrl(href, MAILGO)) {
@@ -739,28 +806,39 @@ function mailgoPreRender() {
         bodyMail = urlParams.get("body");
       } catch (error) {// console.error(error);
       }
-    } else {
-      // if the element href="#mailgo" or class="mailgo"
+    } else if (installation === LESS_SPAM) {
+      // if the installation is less-spam
       // mail = data-address + @ + data-domain
-      mail = mailgoElement.getAttribute("data-address") + "@" + mailgoElement.getAttribute("data-domain");
+      mail = mailgoElement.getAttribute("data-address") && mailgoElement.getAttribute("data-domain") ? mailgoElement.getAttribute("data-address") + "@" + mailgoElement.getAttribute("data-domain") : null;
 
       try {
         url = new URL(MAILTO + encodeURIComponent(mail));
       } catch (error) {// console.error(error);
-      } // cc = data-cc-address + @ + data-cc-domain
+      }
 
+      var parameters = []; // cc = data-cc-address + @ + data-cc-domain
 
-      cc = mailgoElement.getAttribute("data-cc-address") + "@" + mailgoElement.getAttribute("data-cc-domain"); // bcc = data-bcc-address + @ + data-bcc-domain
+      cc = mailgoElement.getAttribute("data-cc-address") ? mailgoElement.getAttribute("data-cc-address") + "@" + mailgoElement.getAttribute("data-cc-domain") : null; // if cc is defined add it to parameters
 
-      bcc = mailgoElement.getAttribute("data-bcc-address") + "@" + mailgoElement.getAttribute("data-bcc-domain"); // subject = data-subject
+      if (cc) parameters.push("cc=" + cc); // bcc = data-bcc-address + @ + data-bcc-domain
 
-      subject = mailgoElement.getAttribute("data-subject"); // body = data-body
+      bcc = mailgoElement.getAttribute("data-bcc-address") ? mailgoElement.getAttribute("data-bcc-address") + "@" + mailgoElement.getAttribute("data-bcc-domain") : null; // if bcc is defined add it to parameters
 
-      bodyMail = mailgoElement.getAttribute("data-body");
+      if (bcc) parameters.push("bcc=" + bcc); // subject = data-subject
+
+      subject = mailgoElement.getAttribute("data-subject"); // if subject is defined add it to parameters
+
+      if (subject) parameters.push("subject=" + subject); // body = data-body
+
+      bodyMail = mailgoElement.getAttribute("data-body"); // if body is defined add it to parameters
+
+      if (bodyMail) parameters.push("body=" + bodyMail); // set the lessSpamHref
+
+      lessSpamHref = buildLessSpamHref(MAILTO + encodeURIComponent(mail), parameters);
     } // if is in config use it
 
 
-    if (typeof ((_config5 = config) === null || _config5 === void 0 ? void 0 : _config5.validateEmail) !== "undefined") {
+    if (typeof ((_config7 = config) === null || _config7 === void 0 ? void 0 : _config7.validateEmail) !== "undefined") {
       validateEmailConfig = config.validateEmail;
     }
 
@@ -776,14 +854,16 @@ function mailgoPreRender() {
     }
   } // mailgo tel
   else if (type === MAILGO_TEL) {
-      var _config6;
+      var _config8;
 
-      if (validateUrl(href, TEL)) {
-        tel = decodeURIComponent(href.split("?")[0].split(TEL)[1].trim());
-      } else if (validateUrl(href, CALLTO)) {
-        tel = decodeURIComponent(href.split("?")[0].split(CALLTO)[1].trim());
-      } else if (validateUrl(href, SMS)) {
-        tel = decodeURIComponent(href.split("?")[0].split(SMS)[1].trim());
+      if (installation === CLASSIC) {
+        if (validateUrl(href, TEL)) {
+          tel = decodeURIComponent(href.split("?")[0].split(TEL)[1].trim());
+        } else if (validateUrl(href, CALLTO)) {
+          tel = decodeURIComponent(href.split("?")[0].split(CALLTO)[1].trim());
+        } else if (validateUrl(href, SMS)) {
+          tel = decodeURIComponent(href.split("?")[0].split(SMS)[1].trim());
+        }
 
         try {
           url = new URL(href);
@@ -792,13 +872,24 @@ function mailgoPreRender() {
           msg = _urlParams.get("body");
         } catch (error) {// console.error(error);
         }
-      } else if (mailgoElement.hasAttribute("data-tel")) {
+      } else if (installation == LESS_SPAM) {
         tel = mailgoElement.getAttribute("data-tel");
         msg = mailgoElement.getAttribute("data-msg");
+
+        try {
+          url = new URL(TEL + encodeURIComponent(tel));
+        } catch (error) {// console.error(error);
+        }
+
+        var _parameters = []; // if msg is defined add it to parameters
+
+        if (msg) _parameters.push("body=" + msg); // set the lessSpamHref
+
+        lessSpamHref = buildLessSpamHref(TEL + encodeURIComponent(tel), _parameters);
       } // if is in config use it
 
 
-      if (typeof ((_config6 = config) === null || _config6 === void 0 ? void 0 : _config6.validateTel) !== "undefined") {
+      if (typeof ((_config8 = config) === null || _config8 === void 0 ? void 0 : _config8.validateTel) !== "undefined") {
         validateTelConfig = config.validateTel;
       } // validate the phone number
 
@@ -823,17 +914,17 @@ function mailgoPreRender() {
     } // if config.dark is set to true then all the modals will be in dark mode
 
 
-  if (mailgoElement && !((_config7 = config) === null || _config7 === void 0 ? void 0 : _config7.dark)) {
+  if (mailgoElement && !((_config9 = config) === null || _config9 === void 0 ? void 0 : _config9.dark)) {
     // if the element contains dark as class enable dark mode
     if (mailgoElement.classList.contains("dark")) {
-      enableDarkMode(type);
+      enableDarkMode();
     } else {
-      disableDarkMode(type);
+      disableDarkMode();
     }
   } // render mailgo
 
 
-  mailgoRender(type);
+  mailgoRender();
   return true;
 }
 /**
@@ -847,10 +938,18 @@ function mailgoDirectRender(directUrl) {
   mailgo();
 
   if (validateUrl(directUrl, MAILTO) || validateUrl(directUrl, MAILGO)) {
-    mailgoPreRender(MAILGO_MAIL, directUrl);
+    activeMailgoType = {
+      type: MAILGO_MAIL,
+      installation: CLASSIC
+    };
+    mailgoPreRender(directUrl);
     return true;
   } else if (validateUrl(directUrl, TEL) || validateUrl(directUrl, CALLTO) || validateUrl(directUrl, SMS)) {
-    mailgoPreRender(MAILGO_TEL, directUrl);
+    activeMailgoType = {
+      type: MAILGO_TEL,
+      installation: CLASSIC
+    };
+    mailgoPreRender(directUrl);
     return true;
   }
 
@@ -863,9 +962,13 @@ function mailgoDirectRender(directUrl) {
 
 
 function mailgoRender() {
-  var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : MAILGO_MAIL;
+  var _activeMailgoType4;
 
-  // mailgo mail
+  // get the type from current mailgo type
+  var type = (_activeMailgoType4 = activeMailgoType) === null || _activeMailgoType4 === void 0 ? void 0 : _activeMailgoType4.type; // if type is not defined return
+
+  if (!type) return false; // mailgo mail
+
   if (type === MAILGO_MAIL) {
     // the title of the modal (email address)
     title.innerHTML = mail.split(",").join("<br/>"); // add the details if provided
@@ -902,12 +1005,8 @@ function mailgoRender() {
     gmail.addEventListener("click", openGmail);
     outlook.addEventListener("click", openOutlook);
     yahoo.addEventListener("click", openYahooMail);
-    encEmail = encodeEmail(mail);
     mailgo_open.addEventListener("click", openDefault);
-    copyMail.addEventListener("click", function (event) {
-      event.preventDefault();
-      copy(mail);
-    });
+    copyMail.addEventListener("click", copy);
   } // mailgo tel
   else if (type === MAILGO_TEL) {
       // the title of the modal (tel)
@@ -931,11 +1030,8 @@ function mailgoRender() {
       }
 
       skype.addEventListener("click", openSkype);
-      call.addEventListener("click", callDefault);
-      copyTel.addEventListener("click", function (event) {
-        event.preventDefault();
-        copy(tel);
-      });
+      call.addEventListener("click", openDefault);
+      copyTel.addEventListener("click", copy);
     } // show the mailgo
 
 
@@ -947,26 +1043,24 @@ function mailgoRender() {
 
 
 var openGmail = function openGmail(event) {
-  event.preventDefault(); // Gmail url
+  var _activeMailgoType5;
 
-  var gmailUrl = "https://mail.google.com/mail/u/0/?view=cm&source=mailto&to=" + encodeURIComponent(mail); // the details if provided
+  event.preventDefault();
+  var urlString;
+  var installation = (_activeMailgoType5 = activeMailgoType) === null || _activeMailgoType5 === void 0 ? void 0 : _activeMailgoType5.installation;
 
-  if (cc) {
-    gmailUrl = gmailUrl.concat("&cc=" + encodeURIComponent(cc));
-  }
+  if (installation === CLASSIC) {
+    try {
+      urlString = url.toString();
+    } catch (e) {
+      urlString = href;
+    }
+  } else if (installation === LESS_SPAM) {
+    urlString = lessSpamHref;
+  } // Gmail url
 
-  if (bcc) {
-    gmailUrl = gmailUrl.concat("&bcc=" + encodeURIComponent(bcc));
-  }
 
-  if (subject) {
-    gmailUrl = gmailUrl.concat("&subject=" + subject);
-  }
-
-  if (bodyMail) {
-    gmailUrl = gmailUrl.concat("&body=" + bodyMail);
-  } // open the link
-
+  var gmailUrl = "https://mail.google.com/mail/?extsrc=mailto&url=" + encodeURIComponent(urlString); // open the link
 
   window.open(gmailUrl, "_blank", "noopener, noreferrer"); // hide the modal
 
@@ -979,11 +1073,11 @@ var openOutlook = function openOutlook(event) {
   var outlookUrl = "https://outlook.live.com/owa/?path=/mail/action/compose&to=" + encodeURIComponent(mail); // the details if provided
 
   if (subject) {
-    outlookUrl = outlookUrl.concat("&subject=" + subject);
+    outlookUrl = outlookUrl.concat("&subject=" + encodeURIComponent(subject));
   }
 
   if (bodyMail) {
-    outlookUrl = outlookUrl.concat("&body=" + bodyMail);
+    outlookUrl = outlookUrl.concat("&body=" + encodeURIComponent(bodyMail));
   } // open the link
 
 
@@ -995,14 +1089,14 @@ var openOutlook = function openOutlook(event) {
 var openYahooMail = function openYahooMail(event) {
   event.preventDefault(); // Yahoo url
 
-  var yahooUrl = "https://compose.mail.yahoo.com/?to=" + encodeURIComponent(mail); // the details if provided
+  var yahooUrl = "https://compose.mail.yahoo.com/?to=" + mail; // the details if provided
 
   if (subject) {
-    yahooUrl = yahooUrl.concat("&subject=" + subject);
+    yahooUrl = yahooUrl.concat("&subject=" + encodeURIComponent(subject));
   }
 
   if (bodyMail) {
-    yahooUrl = yahooUrl.concat("&body=" + bodyMail);
+    yahooUrl = yahooUrl.concat("&body=" + encodeURIComponent(bodyMail));
   } // open the link
 
 
@@ -1011,18 +1105,12 @@ var openYahooMail = function openYahooMail(event) {
   hideMailgo();
 };
 
-var openDefault = function openDefault(event) {
-  event.preventDefault();
-  mailToEncoded(encEmail);
-  hideMailgo();
-};
-
 var openTelegram = function openTelegram(event) {
   event.preventDefault(); // check if telegramUsername exists
 
   if (telegramUsername) {
     // Telegram url
-    var tgUrl = "https://t.me/" + telegramUsername; // open the url
+    var tgUrl = "https://t.me/" + encodeURIComponent(telegramUsername); // open the url
 
     window.open(tgUrl, "_blank", "noopener, noreferrer"); // hide the modal
 
@@ -1034,7 +1122,7 @@ var openSkype = function openSkype(event) {
   event.preventDefault();
   var skype = skypeUsername || tel; // Telegram url
 
-  var skypeUrl = "skype:" + skype; // open the url
+  var skypeUrl = "skype:" + encodeURIComponent(skype); // open the url
 
   window.open(skypeUrl, "_blank", "noopener, noreferrer"); // hide the modal
 
@@ -1044,10 +1132,10 @@ var openSkype = function openSkype(event) {
 var openWhatsApp = function openWhatsApp(event) {
   event.preventDefault(); // WhatsApp url
 
-  var waUrl = "https://wa.me/" + tel; // the details if provided
+  var waUrl = "https://wa.me/" + encodeURIComponent(tel); // the details if provided
 
   if (msg) {
-    waUrl = waUrl + "?text=" + msg;
+    waUrl = waUrl.concat("?text=" + msg);
   } // open the url
 
 
@@ -1056,63 +1144,111 @@ var openWhatsApp = function openWhatsApp(event) {
   hideMailgo();
 };
 
-var callDefault = function callDefault(event) {
+var openDefault = function openDefault(event) {
+  var _activeMailgoType6;
+
   event.preventDefault();
-  var callUrl = TEL + tel;
-  window.open(callUrl);
+  var installation = (_activeMailgoType6 = activeMailgoType) === null || _activeMailgoType6 === void 0 ? void 0 : _activeMailgoType6.installation; // if the installation is classic the browser can follow the default behaviour
+
+  if (installation === CLASSIC) {
+    window.location.href = href;
+  } else if (installation === LESS_SPAM) {
+    // if the installation is less-spam use the built less-spam href
+    window.location.href = lessSpamHref;
+  }
+
   hideMailgo();
 };
 
-var copy = function copy(content) {
-  copyToClipboard(content);
-  var activeCopy; // the correct copyButton (mail or tel)
+var copy = function copy(event) {
+  event.preventDefault(); // the correct copyButton (mail or tel)
 
-  if (mailgoIsShowing(MAILGO_MAIL)) {
-    activeCopy = copyMail;
-  } else {
-    activeCopy = copyTel;
+  if (mailgoIsShowing()) {
+    var _activeMailgoType7;
+
+    var activeCopy;
+    var type = (_activeMailgoType7 = activeMailgoType) === null || _activeMailgoType7 === void 0 ? void 0 : _activeMailgoType7.type;
+
+    if (type === MAILGO_MAIL) {
+      // in case it is showing mail modal copy email address
+      copyToClipboard(mail);
+      activeCopy = copyMail;
+    } else {
+      // in case it is showing tel modal copy phone number
+      copyToClipboard(tel);
+      activeCopy = copyTel;
+    }
+
+    activeCopy.textContent = strings.copied || defaultStrings.copied;
+    setTimeout(function () {
+      activeCopy.textContent = strings.copy || defaultStrings.copy; // hide after the timeout
+
+      hideMailgo();
+    }, 999);
   }
-
-  activeCopy.textContent = strings.copied || defaultStrings.copied;
-  setTimeout(function () {
-    activeCopy.textContent = strings.copy || defaultStrings.copy; // hide after the timeout
-
-    hideMailgo();
-  }, 999);
 }; // function to find if a link is a mailto, tel, callto or sms
 
 
 var validateUrl = function validateUrl(url) {
   var type = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : MAILTO;
-  var regexValidate = new RegExp("^" + type, "gi");
+  var regexValidate = new RegExp("^" + type + "((.)+)", "gi");
   return regexValidate.test(url);
 }; // function that returns if an element is a mailgo
 
 
 function getMailgoTypeByElement(element) {
-  var href = element.href; // mailgo type mail
+  var _element$classList, _element$classList2, _element$classList3;
 
-  if ( // first case: it is an <a> element with "mailto:..." or "mailgo:..." in href and no no-mailgo in classList
-  href && (validateUrl(href, MAILTO) || validateUrl(href, MAILGO)) && !element.classList.contains(NO_MAILGO) || element.hasAttribute("data-address") && ( // second case: the href=#mailgo
-  href && element.getAttribute("href").toLowerCase() === "#mailgo" || // third case: the classList contains mailgo
-  element.classList && element.classList.contains("mailgo"))) {
-    return MAILGO_MAIL;
-  } // mailgo type tel
+  var elementHref = element.getAttribute("href"); // return null if there is no-mailgo in class
 
-
-  if ( // first case: it is an <a> element with "tel:..." or "callto:..." in href and no no-mailgo in classList
-  href && (validateUrl(href, TEL) || validateUrl(href, CALLTO)) && !element.classList.contains(NO_MAILGO) || element.hasAttribute("data-tel") && // second case: the href=#mailgo
-  href && element.getAttribute("href").toLowerCase() === "#mailgo" || // third case: the classList contains mailgo
-  element.classList && element.classList.contains("mailgo")) {
-    return MAILGO_TEL;
-  } // mailgo type tel
+  if ((_element$classList = element.classList) === null || _element$classList === void 0 ? void 0 : _element$classList.contains(NO_MAILGO)) {
+    return null;
+  } // the case of classic type of mailgo, like a href=mailto:... or a href=tel:... and the class=mailgo with a useful href
 
 
-  if ( // first case: it is an <a> element with "sms:..." in href and no no-mailgo in classList
-  href && validateUrl(href, SMS) && !element.classList.contains(NO_MAILGO) || element.hasAttribute("data-sms") && // second case: the href=#mailgo
-  href && element.getAttribute("href").toLowerCase() === "#mailgo" || // third case: the classList contains mailgo
-  element.classList && element.classList.contains("mailgo")) {
-    return MAILGO_SMS;
+  if (elementHref || ((_element$classList2 = element.classList) === null || _element$classList2 === void 0 ? void 0 : _element$classList2.contains("mailgo"))) {
+    if (validateUrl(elementHref, MAILTO) || validateUrl(elementHref, MAILGO)) {
+      // a mailto: or mailgo:
+      return {
+        type: MAILGO_MAIL,
+        installation: CLASSIC
+      };
+    } else if (validateUrl(elementHref, TEL) || validateUrl(elementHref, CALLTO)) {
+      // a tel: or callto:
+      return {
+        type: MAILGO_TEL,
+        installation: CLASSIC
+      };
+    } else if (validateUrl(elementHref, SMS)) {
+      // a sms:
+      return {
+        type: MAILGO_SMS,
+        installation: CLASSIC
+      };
+    }
+  }
+
+  if (elementHref === "#mailgo" || ((_element$classList3 = element.classList) === null || _element$classList3 === void 0 ? void 0 : _element$classList3.contains("mailgo"))) {
+    // less-spam installation of mailgo, check to the attributes
+    if (element.hasAttribute("data-address") && element.hasAttribute("data-domain")) {
+      // less-spam mailto with data-address and data-domain
+      return {
+        type: MAILGO_MAIL,
+        installation: LESS_SPAM
+      };
+    } else if (element.hasAttribute("data-tel")) {
+      // less-spam tel with data-tel
+      return {
+        type: MAILGO_TEL,
+        installation: LESS_SPAM
+      };
+    } else if (element.hasAttribute("data-msg")) {
+      // less-spam sms with data-msd
+      return {
+        type: MAILGO_SMS,
+        installation: LESS_SPAM
+      };
+    }
   }
 
   return null;
@@ -1125,77 +1261,83 @@ function getMailgoTypeByElement(element) {
 
 var mailgoKeydown = function mailgoKeydown(keyboardEvent) {
   // if mailgo is showing
-  if (mailgoIsShowing(MAILGO_MAIL)) {
-    switch (keyboardEvent.keyCode) {
-      case 27:
-        // Escape
-        hideMailgo();
-        return true;
+  if (mailgoIsShowing()) {
+    var _activeMailgoType8;
 
-      case 71:
-        // g -> open GMail
-        openGmail();
-        return true;
+    var type = (_activeMailgoType8 = activeMailgoType) === null || _activeMailgoType8 === void 0 ? void 0 : _activeMailgoType8.type;
 
-      case 79:
-        // o -> open Outlook
-        openOutlook();
-        return true;
+    if (type === MAILGO_MAIL) {
+      switch (keyboardEvent.keyCode) {
+        case 27:
+          // Escape
+          hideMailgo();
+          return true;
 
-      case 89:
-        // y -> open Yahoo Mail
-        openYahooMail();
-        return true;
+        case 71:
+          // g -> open GMail
+          openGmail();
+          return true;
 
-      case 32:
-      case 13:
-        // spacebar or enter -> open default
-        openDefault();
-        return true;
+        case 79:
+          // o -> open Outlook
+          openOutlook();
+          return true;
 
-      case 67:
-        // c -> copy
-        copy(mail);
-        return true;
+        case 89:
+          // y -> open Yahoo Mail
+          openYahooMail();
+          return true;
 
-      default:
-        return false;
-    }
-  } else if (mailgoIsShowing(MAILGO_TEL)) {
-    switch (keyboardEvent.keyCode) {
-      case 27:
-        // Escape
-        hideMailgo();
-        return true;
+        case 32:
+        case 13:
+          // spacebar or enter -> open default
+          openDefault();
+          return true;
 
-      case 84:
-        // t -> open Telegram
-        openTelegram();
-        return true;
+        case 67:
+          // c -> copy
+          copy();
+          return true;
 
-      case 87:
-        // w -> open WhatsApp
-        openWhatsApp();
-        return true;
+        default:
+          return false;
+      }
+    } else if (type === MAILGO_TEL) {
+      switch (keyboardEvent.keyCode) {
+        case 27:
+          // Escape
+          hideMailgo();
+          return true;
 
-      case 83:
-        // s -> open Skype
-        openSkype();
-        return true;
+        case 84:
+          // t -> open Telegram
+          openTelegram();
+          return true;
 
-      case 32:
-      case 13:
-        // spacebar or enter -> call default
-        callDefault();
-        return true;
+        case 87:
+          // w -> open WhatsApp
+          openWhatsApp();
+          return true;
 
-      case 67:
-        // c -> copy
-        copy(tel);
-        return true;
+        case 83:
+          // s -> open Skype
+          openSkype();
+          return true;
 
-      default:
-        return false;
+        case 32:
+        case 13:
+          // spacebar or enter -> open default
+          openDefault();
+          return true;
+
+        case 67:
+          // c -> copy
+          copy();
+          return true;
+
+        default:
+          return false;
+      }
     }
   }
 
@@ -1203,8 +1345,7 @@ var mailgoKeydown = function mailgoKeydown(keyboardEvent) {
 }; // show the modal
 
 
-var showMailgo = function showMailgo() {
-  var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : MAILGO_MAIL;
+var showMailgo = function showMailgo(type) {
   // show the correct modal
   setModalDisplay(type, "flex");
 }; // hide the modal
@@ -1220,8 +1361,7 @@ var hideMailgo = function hideMailgo() {
 
 
 var mailgoIsShowing = function mailgoIsShowing() {
-  var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : MAILGO_MAIL;
-  return getModalDisplay(type) === "flex";
+  return getModalDisplay(MAILGO_MAIL) === "flex" || getModalDisplay(MAILGO_TEL) === "flex";
 };
 
 var byElement = function byElement() {
@@ -1244,16 +1384,6 @@ var createElement = function createElement() {
 
 var createTextNode = function createTextNode(element) {
   return document.createTextNode(element);
-}; // decrypt email
-
-
-var mailToEncoded = function mailToEncoded(encoded) {
-  return window.location.href = MAILTO + atob(encoded);
-}; // encode email
-
-
-var encodeEmail = function encodeEmail(email) {
-  return btoa(email);
 }; // get the correct HTMLElement from a type
 
 
@@ -1298,14 +1428,26 @@ var setModalDisplay = function setModalDisplay() {
 
 
 var enableDarkMode = function enableDarkMode() {
-  var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : MAILGO_MAIL;
-  return getModalHTMLElement(type).classList.add("m-dark");
+  var _activeMailgoType9;
+
+  // get the type from current mailgo type
+  var type = (_activeMailgoType9 = activeMailgoType) === null || _activeMailgoType9 === void 0 ? void 0 : _activeMailgoType9.type;
+
+  if (type) {
+    getModalHTMLElement(type).classList.add("m-dark");
+  }
 }; // disable dark mode
 
 
 var disableDarkMode = function disableDarkMode() {
-  var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : MAILGO_MAIL;
-  return getModalHTMLElement(type).classList.remove("m-dark");
+  var _activeMailgoType10;
+
+  // get the type from current mailgo type
+  var type = (_activeMailgoType10 = activeMailgoType) === null || _activeMailgoType10 === void 0 ? void 0 : _activeMailgoType10.type;
+
+  if (type) {
+    getModalHTMLElement(type).classList.remove("m-dark");
+  }
 }; // custom composedPath if path or event.composedPath() are not defined
 
 
@@ -1323,22 +1465,34 @@ var composedPath = function composedPath(el) {
 
     el = el.parentElement;
   }
+}; // function to recreate a mailto: or tel: href from less-spam
+
+
+var buildLessSpamHref = function buildLessSpamHref(type, parameters) {
+  lessSpamHref = type;
+
+  if (parameters && parameters.length > 0) {
+    var joinedParams = parameters.join("&");
+    lessSpamHref = lessSpamHref.concat("?" + joinedParams);
+  }
+
+  return lessSpamHref;
 }; // function to check an action is enabled or not
 
 
 var mailgoActionEnabled = function mailgoActionEnabled(action) {
-  var _config8, _config9;
+  var _config10, _config11;
 
   // by default all the actions are enabled
   if (!config) {
     return true;
   }
 
-  if (config && !((_config8 = config) === null || _config8 === void 0 ? void 0 : _config8.actions)) {
+  if (config && !((_config10 = config) === null || _config10 === void 0 ? void 0 : _config10.actions)) {
     return true;
   }
 
-  if (config && config.actions && ((_config9 = config) === null || _config9 === void 0 ? void 0 : _config9.actions[action]) === false) {
+  if (config && config.actions && ((_config11 = config) === null || _config11 === void 0 ? void 0 : _config11.actions[action]) === false) {
     return false;
   }
 
@@ -1347,11 +1501,11 @@ var mailgoActionEnabled = function mailgoActionEnabled(action) {
 
 
 var mailgoSetLanguage = function mailgoSetLanguage() {
-  var _config10;
+  var _config12;
 
   var languageType = "default lang"; // if a language is defined in configuration use it
 
-  if (((_config10 = config) === null || _config10 === void 0 ? void 0 : _config10.lang) && i18n.languages.indexOf(config.lang) !== -1) {
+  if (((_config12 = config) === null || _config12 === void 0 ? void 0 : _config12.lang) && languages.indexOf(config.lang) !== -1) {
     lang = config.lang;
     languageType = "config lang";
   } else {
@@ -1359,9 +1513,9 @@ var mailgoSetLanguage = function mailgoSetLanguage() {
     // keep the lang from html
     var htmlLang = document.documentElement.lang; // find the correct language using the lang attribute, not just a === because there a are cases like fr-FR or fr_FR in html lang attribute
 
-    i18n.languages.forEach(function (language) {
+    languages.forEach(function (language) {
       if (new RegExp("^" + language, "gi").test(htmlLang)) {
-        lang = htmlLang;
+        lang = language;
         languageType = "html lang";
       }
     });
@@ -1394,25 +1548,25 @@ function mailgo(mailgoConfig) {
     config = _objectSpread(_objectSpread({}, mailgoConfig), ((_window = window) === null || _window === void 0 ? void 0 : _window.mailgoConfig) || null); // if the window is defined...
 
     if (typeof window !== "undefined") {
-      var _config11, _config12, _config13, _config14, _config15;
+      var _config13, _config14, _config15, _config16, _config17;
 
       // if is set in config use it (load the mailgo CSS)
-      if (typeof ((_config11 = config) === null || _config11 === void 0 ? void 0 : _config11.loadCSS) !== "undefined") {
+      if (typeof ((_config13 = config) === null || _config13 === void 0 ? void 0 : _config13.loadCSS) !== "undefined") {
         loadCSSConfig = config.loadCSS;
       } // if is set in config use it (enable mailto)
 
 
-      if (typeof ((_config12 = config) === null || _config12 === void 0 ? void 0 : _config12.mailto) !== "undefined") {
+      if (typeof ((_config14 = config) === null || _config14 === void 0 ? void 0 : _config14.mailto) !== "undefined") {
         mailtoEnabled = config.mailto;
       } // if is set in config use it (enable tel)
 
 
-      if (typeof ((_config13 = config) === null || _config13 === void 0 ? void 0 : _config13.tel) !== "undefined") {
+      if (typeof ((_config15 = config) === null || _config15 === void 0 ? void 0 : _config15.tel) !== "undefined") {
         telEnabled = config.tel;
       } // if is set in config use it (enable sms)
 
 
-      if (typeof ((_config14 = config) === null || _config14 === void 0 ? void 0 : _config14.sms) !== "undefined") {
+      if (typeof ((_config16 = config) === null || _config16 === void 0 ? void 0 : _config16.sms) !== "undefined") {
         smsEnabled = config.sms;
       } // if load css enabled load it!
 
@@ -1423,10 +1577,10 @@ function mailgo(mailgoConfig) {
       } // if is set an initEvent add the listener
 
 
-      if ((_config15 = config) === null || _config15 === void 0 ? void 0 : _config15.initEvent) {
-        var _config16;
+      if ((_config17 = config) === null || _config17 === void 0 ? void 0 : _config17.initEvent) {
+        var _config18;
 
-        if ((_config16 = config) === null || _config16 === void 0 ? void 0 : _config16.listenerOptions) {
+        if ((_config18 = config) === null || _config18 === void 0 ? void 0 : _config18.listenerOptions) {
           // listener options specified
           document.addEventListener(config.initEvent, mailgoInit, config.listenerOptions);
         } else {
@@ -1448,7 +1602,9 @@ function mailgo(mailgoConfig) {
 
 if (typeof window !== "undefined") {
   window.getMailgoTypeByElement = getMailgoTypeByElement;
-  window.mailgoCheckRender = mailgoCheckRender;
+  window.mailgoClickListener = mailgoClickListener;
+  window.mailgoCheckRender = mailgoClickListener; // for compatibility with old version of mailgo
+
   window.mailgoPreRender = mailgoPreRender;
   window.mailgoDirectRender = mailgoDirectRender;
   window.mailgoRender = mailgoRender;
