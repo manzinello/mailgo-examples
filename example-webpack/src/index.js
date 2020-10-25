@@ -1,4 +1,4 @@
-import mailgo from "mailgo";
+import mailgo from "mailgo-wip";
 
 mailgo({
   dark: true,

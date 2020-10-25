@@ -1,4 +1,4 @@
-import mailgo, { mailgoDirectRender } from "mailgo";
+import mailgo, { mailgoDirectRender } from "mailgo-wip";
 
 mailgo({
   dark: true,

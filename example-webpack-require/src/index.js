@@ -1,4 +1,4 @@
-const mailgo = require("mailgo");
+const mailgo = require("mailgo-wip");
 
 // console.log(mailgo);
 
