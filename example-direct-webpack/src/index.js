@@ -5,7 +5,7 @@ mailgo({
 });
 
 document.getElementById("direct-button").addEventListener("click", function () {
-  mailgoDirectRender("mailto:matteo@manzinello.dev");
+  mailgoDirectRender("mailto:info@mailgo.dev");
 });
 
 document
