@@ -41,6 +41,7 @@
   z-index: 10002;
   box-sizing: content-box;
   text-align: center;
+  overflow: hidden;
   min-width: 200px;
   max-width: 240px;
   background-color: #fff;
@@ -63,7 +64,7 @@
 .m-modal .m-modal-content .m-title {
   margin-bottom: 8px;
   overflow: hidden;
-  white-space: pre;
+  white-space: pre-line;
   text-overflow: ellipsis;
   line-height: 1.2em;
 }
@@ -71,7 +72,7 @@
   margin-bottom: 10px;
 }
 .m-modal .m-modal-content .m-details p {
-  white-space: pre;
+  white-space: pre-line;
   font-size: 12px;
   margin-top: 3px;
   margin-bottom: 3px;
@@ -149,6 +150,15 @@
 .m-modal .m-modal-content a.m-copy:active {
   background-color: rgba(0, 0, 0, 0.08);
   color: #4a4a4a;
+}
+.m-modal .m-modal-content a.m-custom-action {
+  color: #0b790b;
+}
+.m-modal .m-modal-content a.m-custom-action:hover,
+.m-modal .m-modal-content a.m-custom-action:focus,
+.m-modal .m-modal-content a.m-custom-action:active {
+  background-color: rgba(11, 121, 11, 0.08);
+  color: #0b790b;
 }
 .m-modal .m-modal-content a.m-by {
   font-size: 12px;
@@ -235,6 +245,15 @@
 .m-modal.m-dark .m-modal-content a.m-skype:active {
   background-color: rgba(76, 199, 244, 0.08);
   color: #4cc7f4;
+}
+.m-modal.m-dark .m-modal-content a.m-custom-action {
+  color: #b0ecb0;
+}
+.m-modal.m-dark .m-modal-content a.m-custom-action:hover,
+.m-modal.m-dark .m-modal-content a.m-custom-action:focus,
+.m-modal.m-dark .m-modal-content a.m-custom-action:active {
+  background-color: rgba(176, 236, 176, 0.08);
+  color: #b0ecb0;
 }
 .m-modal.m-dark .m-modal-content a.m-by:hover,
 .m-modal.m-dark .m-modal-content a.m-by:focus,
